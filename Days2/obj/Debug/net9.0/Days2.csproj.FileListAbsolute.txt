@@ -1,0 +1,15 @@
+D:\C#\Days2\bin\Debug\net9.0\Days2.exe
+D:\C#\Days2\bin\Debug\net9.0\Days2.deps.json
+D:\C#\Days2\bin\Debug\net9.0\Days2.runtimeconfig.json
+D:\C#\Days2\bin\Debug\net9.0\Days2.dll
+D:\C#\Days2\bin\Debug\net9.0\Days2.pdb
+D:\C#\Days2\obj\Debug\net9.0\Days2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Days2\obj\Debug\net9.0\Days2.AssemblyInfoInputs.cache
+D:\C#\Days2\obj\Debug\net9.0\Days2.AssemblyInfo.cs
+D:\C#\Days2\obj\Debug\net9.0\Days2.csproj.CoreCompileInputs.cache
+D:\C#\Days2\obj\Debug\net9.0\Days2.sourcelink.json
+D:\C#\Days2\obj\Debug\net9.0\Days2.dll
+D:\C#\Days2\obj\Debug\net9.0\refint\Days2.dll
+D:\C#\Days2\obj\Debug\net9.0\Days2.pdb
+D:\C#\Days2\obj\Debug\net9.0\Days2.genruntimeconfig.cache
+D:\C#\Days2\obj\Debug\net9.0\ref\Days2.dll
