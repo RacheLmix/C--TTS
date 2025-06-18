@@ -1,0 +1,15 @@
+D:\C#\Days3\bin\Debug\net9.0\Days3.exe
+D:\C#\Days3\bin\Debug\net9.0\Days3.deps.json
+D:\C#\Days3\bin\Debug\net9.0\Days3.runtimeconfig.json
+D:\C#\Days3\bin\Debug\net9.0\Days3.dll
+D:\C#\Days3\bin\Debug\net9.0\Days3.pdb
+D:\C#\Days3\obj\Debug\net9.0\Days3.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Days3\obj\Debug\net9.0\Days3.AssemblyInfoInputs.cache
+D:\C#\Days3\obj\Debug\net9.0\Days3.AssemblyInfo.cs
+D:\C#\Days3\obj\Debug\net9.0\Days3.csproj.CoreCompileInputs.cache
+D:\C#\Days3\obj\Debug\net9.0\Days3.sourcelink.json
+D:\C#\Days3\obj\Debug\net9.0\Days3.dll
+D:\C#\Days3\obj\Debug\net9.0\refint\Days3.dll
+D:\C#\Days3\obj\Debug\net9.0\Days3.pdb
+D:\C#\Days3\obj\Debug\net9.0\Days3.genruntimeconfig.cache
+D:\C#\Days3\obj\Debug\net9.0\ref\Days3.dll
