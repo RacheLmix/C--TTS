@@ -1,0 +1,15 @@
+D:\C#\Days5\obj\Debug\net9.0\Days5.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Days5\obj\Debug\net9.0\Days5.AssemblyInfoInputs.cache
+D:\C#\Days5\obj\Debug\net9.0\Days5.AssemblyInfo.cs
+D:\C#\Days5\obj\Debug\net9.0\Days5.csproj.CoreCompileInputs.cache
+D:\C#\Days5\obj\Debug\net9.0\Days5.sourcelink.json
+D:\C#\Days5\bin\Debug\net9.0\Days5.exe
+D:\C#\Days5\bin\Debug\net9.0\Days5.deps.json
+D:\C#\Days5\bin\Debug\net9.0\Days5.runtimeconfig.json
+D:\C#\Days5\bin\Debug\net9.0\Days5.dll
+D:\C#\Days5\bin\Debug\net9.0\Days5.pdb
+D:\C#\Days5\obj\Debug\net9.0\Days5.dll
+D:\C#\Days5\obj\Debug\net9.0\refint\Days5.dll
+D:\C#\Days5\obj\Debug\net9.0\Days5.pdb
+D:\C#\Days5\obj\Debug\net9.0\Days5.genruntimeconfig.cache
+D:\C#\Days5\obj\Debug\net9.0\ref\Days5.dll
