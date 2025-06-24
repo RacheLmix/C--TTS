@@ -1,0 +1,6 @@
+D:\C#\Days7\obj\Debug\net9.0\Days7.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Days7\obj\Debug\net9.0\Days7.AssemblyInfoInputs.cache
+D:\C#\Days7\obj\Debug\net9.0\Days7.AssemblyInfo.cs
+D:\C#\Days7\obj\Debug\net9.0\Days7.csproj.CoreCompileInputs.cache
+D:\C#\Days7\obj\Debug\net9.0\Days7.sourcelink.json
+D:\C#\Days7\obj\Debug\net9.0\Days7.csproj.AssemblyReference.cache
