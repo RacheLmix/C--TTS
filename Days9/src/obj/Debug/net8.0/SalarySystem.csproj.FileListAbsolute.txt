@@ -1,0 +1,12 @@
+D:\C#\Days9\src\bin\Debug\net8.0\SalarySystem.deps.json
+D:\C#\Days9\src\bin\Debug\net8.0\SalarySystem.dll
+D:\C#\Days9\src\bin\Debug\net8.0\SalarySystem.pdb
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.AssemblyInfoInputs.cache
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.AssemblyInfo.cs
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.csproj.CoreCompileInputs.cache
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.sourcelink.json
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.dll
+D:\C#\Days9\src\obj\Debug\net8.0\refint\SalarySystem.dll
+D:\C#\Days9\src\obj\Debug\net8.0\SalarySystem.pdb
+D:\C#\Days9\src\obj\Debug\net8.0\ref\SalarySystem.dll
