@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\Days10\\StudentOrderManager\\StudentOrderManager.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\Days10\\StudentOrderManager\\StudentOrderManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\Days10\\StudentOrderManager\\StudentOrderManager.csproj",
+        "projectName": "StudentOrderManager",
+        "projectPath": "D:\\C#\\Days10\\StudentOrderManager\\StudentOrderManager.csproj",
+        "packagesPath": "C:\\Users\\Rachel\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\Days10\\StudentOrderManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rachel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Xml": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

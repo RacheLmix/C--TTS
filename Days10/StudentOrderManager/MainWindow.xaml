@@ -1,0 +1,95 @@
+﻿<Window x:Class="StudentOrderManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentOrderManager"
+        mc:Ignorable="d"
+        Title="Quản lý sinh viên &amp; đơn hàng" Height="600" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <!-- Quản lý sinh viên -->
+        <GroupBox Header="Quản lý sinh viên" Grid.Row="0" Margin="0,0,0,10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Tìm tên:" VerticalAlignment="Center"/>
+                        <TextBox Width="120" Margin="5,0,0,0" Text="{Binding StudentNameFilter, UpdateSourceTrigger=PropertyChanged}"/>
+                        <TextBlock Text="Lớp:" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                        <TextBox Width="80" Margin="5,0,0,0" Text="{Binding StudentClassFilter, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button Content="Lọc" Margin="10,0,0,0" Command="{Binding FilterStudentsCommand}"/>
+                    </StackPanel>
+                    <DataGrid ItemsSource="{Binding Students}" SelectedItem="{Binding SelectedStudent, Mode=TwoWay}" AutoGenerateColumns="False" Height="150" Margin="0,0,0,5">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                            <DataGridTextColumn Header="Tên" Binding="{Binding Name}" Width="*"/>
+                            <DataGridTextColumn Header="Lớp" Binding="{Binding Class}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                    <TextBlock Text="Tên sinh viên:"/>
+                    <TextBox Text="{Binding EditStudentName, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBlock Text="Lớp:" Margin="0,5,0,0"/>
+                    <TextBox Text="{Binding EditStudentClass, UpdateSourceTrigger=PropertyChanged}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <Button Content="Thêm" Command="{Binding AddStudentCommand}" Width="60"/>
+                        <Button Content="Sửa" Command="{Binding EditStudentCommand}" Width="60" Margin="5,0,0,0"/>
+                        <Button Content="Xóa" Command="{Binding DeleteStudentCommand}" Width="60" Margin="5,0,0,0"/>
+                    </StackPanel>
+                    <TextBlock Text="{Binding StudentError}" Foreground="Red"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <!-- Quản lý đơn hàng -->
+        <GroupBox Header="Quản lý đơn hàng" Grid.Row="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+                        <TextBlock Text="Tìm khách:" VerticalAlignment="Center"/>
+                        <TextBox Width="120" Margin="5,0,0,0" Text="{Binding OrderCustomerFilter, UpdateSourceTrigger=PropertyChanged}"/>
+                        <Button Content="Lọc" Margin="10,0,0,0" Command="{Binding FilterOrdersCommand}"/>
+                    </StackPanel>
+                    <DataGrid ItemsSource="{Binding Orders}" SelectedItem="{Binding SelectedOrder, Mode=TwoWay}" AutoGenerateColumns="False" Height="150" Margin="0,0,0,5">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                            <DataGridTextColumn Header="Khách" Binding="{Binding Customer}" Width="*"/>
+                            <DataGridTextColumn Header="Tổng tiền" Binding="{Binding Total}" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                    <TextBlock Text="Khách hàng:"/>
+                    <ComboBox ItemsSource="{Binding Students}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedValue="{Binding EditOrderCustomer, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBlock Text="Tổng tiền:" Margin="0,5,0,0"/>
+                    <TextBox Text="{Binding EditOrderTotal, UpdateSourceTrigger=PropertyChanged}"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                        <Button Content="Thêm" Command="{Binding AddOrderCommand}" Width="60"/>
+                        <Button Content="Sửa" Command="{Binding EditOrderCommand}" Width="60" Margin="5,0,0,0"/>
+                        <Button Content="Xóa" Command="{Binding DeleteOrderCommand}" Width="60" Margin="5,0,0,0"/>
+                    </StackPanel>
+                    <TextBlock Text="{Binding OrderError}" Foreground="Red"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <!-- Thống kê và xuất báo cáo -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,10">
+            <TextBlock Text="Tổng đơn hàng theo khách: "/>
+            <TextBlock Text="{Binding TotalOrderByCustomer}" FontWeight="Bold"/>
+            <Button Content="Xuất PDF" Command="{Binding ExportPdfCommand}" Margin="20,0,0,0"/>
+            <Button Content="Xuất CSV" Command="{Binding ExportCsvCommand}" Margin="5,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
